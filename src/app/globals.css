@@ -1,0 +1,57 @@
+/* globals.css */
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* White background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height to center the content */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Main container styling */
+.main-container {
+  max-width: 800px; /* Adjusted max-width for wider look */
+  width: 100%;
+  padding: 8px; /* Reduced padding to decrease height */
+  background-color: #ffffff; /* White background */
+  border: 2px solid #e5e7eb; /* Light gray border */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+  margin: 8px; /* Reduced margin around the container */
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* Further reduced spacing between elements */
+  height: auto; /* Allow the height to adjust based on content */
+}
+
+/* Section box styling */
+.section-box {
+  background-color: #f3f4f6; /* Light gray background for sections */
+  padding: 4px; /* Further reduced padding inside the sections */
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* Header styling */
+h1 {
+  font-size: 1.25rem; /* Reduced heading size */
+  color: #374151; /* Dark gray text */
+  text-align: center; /* Center the header */
+  margin-bottom: 4px; /* Further reduced space below the header */
+}
+
+/* Recurrence button styles */
+.recurrence-button {
+  transition: background-color 0.3s;
+}
+
+/* Other styles remain unchanged... */
